@@ -1,5 +1,7 @@
 """
     3种import 方式
+    包被 import 的同时，会执行 __init__.py
+    模块被 import 同时，该模块即被执行
 """
 import org.teamsun.pkgModule.myModule as myModule
 import org.teamsun.pkgModule as pkgModule
