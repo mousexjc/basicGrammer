@@ -15,9 +15,21 @@ print_a()
 
 
 def myAdd(a, b):
-    return a+b
+    print("a=", a)
+    print("b=", b)
+    return a + b
 
 
 print(myAdd(2, 4))
 
-# 《第8章 Python函数》看到50：22
+print(myAdd(b=3, a=2))
+
+
+def myFunction(name, age=13, sex="男孩"):
+    print("我叫" + name)
+    print("我今年" + str(age))
+    print("我是" + sex)
+
+
+myFunction("张三", 20, "女孩")
+myFunction("李四", 20, sex="女孩")
