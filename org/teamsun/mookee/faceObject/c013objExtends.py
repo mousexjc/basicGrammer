@@ -2,7 +2,7 @@
     面向对象的3大特性：
         封装，继承，多态
 """
-from org.teamsun.faceObject.c013father import People
+from org.teamsun.mookee.faceObject.c013father import People
 
 
 class StudentD(People):
